@@ -2,9 +2,9 @@
 Javascript: the main logic of the game
 */
 
-// global constants
-const clueHoldTime = 1000;  // miliseconds to hold each button's light&sound
-const cluePauseTime = 333;  // how long to pause in between buttons
+// Global vars and const related to game speed
+var clueHoldTime = 1000;  // miliseconds to hold each button's light&sound
+var cluePauseTime = 333;  // how long to pause in between buttons
 const nextClueWaitTime = 1000;  // how long to wait before starting playback the next button-sequence
 
 // Global vars to keep track of the state of the game
@@ -20,9 +20,22 @@ var volume = 0.5;  //must be between 0.0 and 1.0
 
 
 /*
+Helper function to generate a random int between 1 and n (inclusive)
+*/
+function randint(n) {
+  return Math.ceil(Math.random() * 6)
+}
+
+/*
 Start (a new round of) the game.
 */
 function startGame() {
+  
+  /////// randomized `pattern` / the whole sequence
+  for (let i=0; i<pattern.length; i++) {
+    pattern[i] = randint(6);
+  }
+  
   progress = 0;
   gamePlaying = true;
   
@@ -67,6 +80,10 @@ function playButton(btn) {
     lightButton(btn);    // lights up the button...
     playTone(btn, clueHoldTime);  // play the tone for c secs
     setTimeout(dimButton, clueHoldTime, btn);  // dim down the button after c secs
+    
+    ///// Speed it up
+    clueHoldTime /= 1.05;
+    cluePauseTime /= 1.1;
   }
 }
 
