@@ -1,0 +1,112 @@
+/* CSS Styling */
+
+body {    /*`body` is the selector. It tells the web browser which HTML elements this rule will affect.*/
+  /* A declaration block */
+  font-family: Verdana, arial, sans-serif;
+  background-color: slategrey;
+  color: white;
+  margin: 1em
+}
+
+h1 {
+  font-family: Verdana, arial, sans-serif;
+  color: Orange;
+}
+
+button {
+  padding: 10px;    /*The space between the content inside an element and its border*/
+  border-radius: 10px;
+  font-family: inherit;
+  font-size: 100%;
+  background: #FFFFFF;
+  transition: 50ms; 
+}
+
+/* A fancier CSS Selector (for the musical buttons only) */
+#gameButtonArea > button {
+  width:200px;
+  height:200px;
+  margin:2px
+}
+
+
+/* Select elements by class (class="hidden" in this example)*/
+.hidden {
+  display: none;
+}
+
+/* Select elements by id (in these cases, the id's for each musical button) */
+#button1 {
+  background: lightgreen;  /*-->Green*/
+}
+#button2 {
+  background: lightSkyBlue;
+}
+#button3 {
+  background: lightPink;
+}
+#button4 {
+  background: NavajoWhite;    /*-->LemonChiffon*/
+}
+#button5 {
+  background: Plum;
+}
+#button6 {
+  background: AliceBlue;
+}
+
+
+/* One more set of rules: when each button "lights up" */
+/* :active: when holding down the mouse.  lit. : when computer plays the pattern*/
+#button1:active, #button1.lit {    
+  background: green;
+}
+#button2:active, #button2.lit {
+	background: blue;
+}
+#button3:active, #button3.lit {
+	background: LightCoral;
+}
+#button4:active, #button4.lit {
+	background: DarkOrange;
+}
+#button5:active, #button5.lit {
+	background: MediumPurple;
+}
+#button6:active, #button6.lit {
+	background: Aqua;
+}
+
+/* Pseudo-class: 
+:active
+:hover
+...
+*/
+
+
+/* Page structure */
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;      /*Notice*/
+  justify-content: center;
+}
+
+
+/* Very light scaling for our illustration */
+.illustration {
+  max-width: 100%;
+  max-height: var(--image-max-width);
+  margin-top: var(--image-margin);
+}
+
+/* Instructions */
+.instructions {
+  margin: 1rem auto 0;
+}
+
+
+.dipped {
+  transform: translateY(5px);
+}
