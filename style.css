@@ -83,10 +83,13 @@ button {
 ...
 */
 
-/* Hiding and unhiding image in button */
+/* Hiding and unhiding image in button (when user clicks on it OR it's lit up by the computer) */
 .imgHidden {
   visibility: hidden
 }
+
+
+
 
 
 

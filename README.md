@@ -28,13 +28,13 @@ The following **optional** features are implemented:
 * [x] Playback speeds up on each turn
 * [x] Computer picks a different pattern each time the game is played
 * [ ] Player only loses after 3 mistakes (instead of on the first mistake)
-* [xx] Game button appearance change goes beyond color (e.g. add an image)
+* [x] Game button appearance change goes beyond color (My Little Pony!)
 * [ ] Game button sound is more complex than a single tone (e.g. an audio file, a chord, a sequence of multiple tones)
 * [ ] User has a limited amount of time to enter their guess on each turn
 
 The following **additional** features are implemented:
 
-- [ ] Game button reponses to user's mouse hover
+- [ ] Game button reponses to user's mouse hover (make the user feel more interactive)
 
 ## Video Walkthrough (GIF)
 
