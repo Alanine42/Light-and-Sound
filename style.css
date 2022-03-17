@@ -22,12 +22,16 @@ button {
   transition: 50ms; 
 }
 
+
 /* A fancier CSS Selector (for the musical buttons only) */
 #gameButtonArea > button {
   width:200px;
   height:200px;
-  margin:2px
+  margin:2px;
+  
+  transition-duration: 0.3;  /* rate of color transition when the button is clicked / hovered */
 }
+
 
 
 /* Select elements by class (class="hidden" in this example). Applies to every <button> tag?*/
@@ -76,6 +80,31 @@ button {
 #button6:active, #button6.lit {
 	background: Aqua;
 }
+
+
+/* Response to mouse hover (make the game more interactive) 
+Help from  https://www.w3schools.com/css/css3_buttons.asp
+*/
+#button1:hover {
+  transform: scale(1.06,1.06);
+}
+#button2:hover {
+  transform: scale(1.06,1.06);
+}
+#button3:hover {
+  transform: scale(1.06,1.06);
+}
+#button4:hover {
+  transform: scale(1.06,1.06);
+}
+#button5:hover {
+  transform: scale(1.06,1.06);
+}
+#button6:hover {
+  transform: scale(1.06,1.06);
+}
+
+
 
 /* Pseudo-class: 
 :active
