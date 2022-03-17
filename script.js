@@ -18,6 +18,10 @@ var tonePlaying = false;
 var volume = 0.5;  //must be between 0.0 and 1.0
 
 
+///// Count how many lives the user has left
+var life = 3;
+
+
 
 /*
 Helper function to generate a random int between 1 and n (inclusive)
