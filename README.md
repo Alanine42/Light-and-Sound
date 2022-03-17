@@ -34,7 +34,8 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [ ] Game button reponses to user's mouse hover (make the user feel more interactive)
+- [x] Game button scales up in response to user's mouse hover (more interactive)
+- [x] Graduate transition of color when a button is clicked
 
 ## Video Walkthrough (GIF)
 
@@ -47,7 +48,9 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
 
-w3schools on html and css.
+W3Schools provide me great help: [button transform](https://www.w3schools.com/cssref/css3_pr_transform.asp), 
+[hoverable buttons](https://www.w3schools.com/css/css3_buttons.asp), 
+[imbedding images](https://www.w3schools.com/tags/tag_img.asp), 
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
 
@@ -56,6 +59,7 @@ need to do is to "nest" a `<img>` tag inside the existing button element.
 
 - Adding image in the buttons cause bad button alignment. When hiding/unhiding an image, the position of the button fluctuates and unaligns with other buttons.
 I used `visibility: hidden` instead of `display: none` in the button's css.
+Descending order matters in CSS
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
 [YOUR ANSWER HERE]
