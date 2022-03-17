@@ -4,7 +4,7 @@
 
 Submitted by: **Yupeng (Alan) Sun**
 
-Time spent: **10** hours spent in total
+Time spent: **10** hours spent in total (in progress)
 
 [Link to project](https://glitch.com/edit/#!/balanced-cyclic-braid) 
 
