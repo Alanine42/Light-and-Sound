@@ -51,11 +51,16 @@ w3schools on html and css.
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
 
-As a newcomer to HTML, it took me a while to embed image in each button. It turns out everything in HTML is nested, and all I
+- As a newcomer to HTML, it took me a while to embed image in each button. It turns out everything in HTML is nested, and all I
 need to do is to "nest" a `<img>` tag inside the existing button element.
+
+- Adding image in the buttons cause bad button alignment. When hiding/unhiding an image, the position of the button fluctuates and unaligns with other buttons.
+I used `visibility: hidden` instead of `display: none` in the button's css.
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
 [YOUR ANSWER HERE]
+Also I feel like the combo "HTML+CSS+javascript" is a very lenient / tolerant tool. They don't throw piles of syntax/logic errors on you (which are discouraging),
+rather, they stay silent. 
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
 [YOUR ANSWER HERE]

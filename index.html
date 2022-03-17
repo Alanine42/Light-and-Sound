@@ -38,34 +38,34 @@
         Welcome to the game! Repeat back the pattern by pressing buttons.
       </p>
 
-      <button id="startBtn" onclick="startGame()">Start</button>
+      <button id="startBtn" onclick="startGame(); hideAllImg()">Start</button>
     
       <button id="stopBtn" class="hidden" onclick="stopGame()">Stop</button>
 
 <!--           The musical game buttons     -->
       <div id="gameButtonArea">
-        <button id="button1" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone() ">
-        <img src="https://cdn.glitch.global/15de1253-06bb-4fd2-bdd9-6125474f7a96/rarity.png?v=1647541174468" alt="W3Schools.com" width="160" height="155">
+        <button id="button1" onclick="guess(1)" onmousedown="startTone(1); showImg(1)" onmouseup="stopTone(); hideImg(1)" >
+        <img id="img1" class="imgHidden" src="https://cdn.glitch.global/15de1253-06bb-4fd2-bdd9-6125474f7a96/rarity.png?v=1647541174468" width="160" height="155">
         </button>
         
-        <button id="button2" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone()">
-        <img src="https://cdn.glitch.global/15de1253-06bb-4fd2-bdd9-6125474f7a96/32-326013_rainbow-dash-salutes-by-ramenluver111-my-little-pony-avatar.jpg?v=1647541174906" width="150" height="150">
+        <button id="button2" onclick="guess(2)" onmousedown="startTone(2); showImg(2)" onmouseup="stopTone(); hideImg(2)">
+        <img id="img2" class="imgHidden" src="https://cdn.glitch.global/15de1253-06bb-4fd2-bdd9-6125474f7a96/32-326013_rainbow-dash-salutes-by-ramenluver111-my-little-pony-avatar.jpg?v=1647541174906"  width="150" height="150">
         </button>
         
-        <button id="button3" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone()">
-        <img src="https://cdn.glitch.global/15de1253-06bb-4fd2-bdd9-6125474f7a96/pinkie_pie.jpg?v=1647541174469" width="160" height="160">
+        <button id="button3" onclick="guess(3)" onmousedown="startTone(3); showImg(3)" onmouseup="stopTone(); hideImg(3)">
+        <img id="img3" class="imgHidden" src="https://cdn.glitch.global/15de1253-06bb-4fd2-bdd9-6125474f7a96/pinkie_pie.jpg?v=1647541174469" width="160" height="160">
         </button>
         
-        <button id="button4" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone()">
-        <img src="https://cdn.glitch.global/15de1253-06bb-4fd2-bdd9-6125474f7a96/apple_jack.jpg?v=1647541174634" width="170" height="170">
+        <button id="button4" onclick="guess(4)" onmousedown="startTone(4); showImg(4)" onmouseup="stopTone(); hideImg(4)">
+        <img id="img4" class="imgHidden" src="https://cdn.glitch.global/15de1253-06bb-4fd2-bdd9-6125474f7a96/apple_jack.jpg?v=1647541174634" width="170" height="170">
         </button>
         
-        <button id="button5" onclick="guess(5)" onmousedown="startTone(5)" onmouseup="stopTone()">
-        <img src="https://cdn.glitch.global/15de1253-06bb-4fd2-bdd9-6125474f7a96/twilight.png?v=1647541174650" width="170" height="170">
+        <button id="button5" onclick="guess(5)" onmousedown="startTone(5); showImg(5)" onmouseup="stopTone(); hideImg(5)">
+        <img id="img5" class="imgHidden" src="https://cdn.glitch.global/15de1253-06bb-4fd2-bdd9-6125474f7a96/twilight.png?v=1647541174650" width="170" height="170">
         </button>
         
-        <button id="button6" onclick="guess(6)" onmousedown="startTone(6)" onmouseup="stopTone()">
-        <img src="https://cdn.glitch.global/15de1253-06bb-4fd2-bdd9-6125474f7a96/shy.png?v=1647541174502" width="170" height="170">
+        <button id="button6" onclick="guess(6)" onmousedown="startTone(6); showImg(6)" onmouseup="stopTone(); hideImg(6)">
+        <img id="img6" class="imgHidden" src="https://cdn.glitch.global/15de1253-06bb-4fd2-bdd9-6125474f7a96/shy.png?v=1647541174502"  width="170" height="170">
         </button>
       </div>
 

@@ -64,12 +64,17 @@ Lights up a button (when computer plays the pattern)
 */
 function lightButton(btn) {
   document.getElementById("button"+btn).classList.add("lit");
+  ///// display image too
+  showImg(btn);
 }
 /*
 Dims down a button (when computer plays the pottern)
 */
 function dimButton(btn) {
   document.getElementById("button"+btn).classList.remove("lit");
+  ///// hide away image too
+  document.getElementById("img"+btn).classList.add("imgHidden");
+  
 }
 
 /*
@@ -77,7 +82,7 @@ Play a single button
 */
 function playButton(btn) {
   if (gamePlaying) {
-    lightButton(btn);    // lights up the button...
+    lightButton(btn);    // lights up the button...\
     playTone(btn, clueHoldTime);  // play the tone for c secs
     setTimeout(dimButton, clueHoldTime, btn);  // dim down the button after c secs
     
@@ -112,6 +117,7 @@ Ex. if we click button1, it will call guess(1)
 function guess(btn) {
   
   console.log("User guessed: " + btn);
+  
   
   if (!gamePlaying) return;
   
@@ -163,6 +169,18 @@ function loseGame() {
 
 
 
+
+/////////////////// Show / Hide image functions (when the user clicks) //////////////////////////
+function showImg(btn) {
+  document.getElementById("img"+btn).classList.remove("imgHidden");
+}
+
+function hideImg(btn) {
+  document.getElementById("img"+btn).classList.add("imgHidden");
+}
+
+
+
 ///////////////////////// Sound Synthesis Functions ///////////////////////
 const freqMap = {  // TODO: change those to 6 chords
   1: 523.25,
@@ -197,6 +215,8 @@ function stopTone(){
   g.gain.setTargetAtTime(0,context.currentTime + 0.05,0.025)
   tonePlaying = false
 }
+
+
 
 
 

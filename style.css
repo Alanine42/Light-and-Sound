@@ -30,7 +30,7 @@ button {
 }
 
 
-/* Select elements by class (class="hidden" in this example)*/
+/* Select elements by class (class="hidden" in this example). Applies to every <button> tag?*/
 .hidden {
   display: none;
 }
@@ -82,6 +82,12 @@ button {
 :hover
 ...
 */
+
+/* Hiding and unhiding image in button */
+.imgHidden {
+  visibility: hidden
+}
+
 
 
 /* Page structure */
