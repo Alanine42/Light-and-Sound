@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <!-- 
+      This is an HTML comment
+      You can write text in a comment and the content won't be visible in the page
+    -->
+
+    <title>Music Game</title>
+
+    
+    <!-- Import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- Import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  
+<!--  ///////////////////////////////////////////////////////////////////////////////////////////////////  -->
+  <body>
+      
+      <!-- This is the start of content for our page -->
+    <h1 class="title">Light and Sound Memory Game</h1>
+
+<!--         <img
+        src="https://cdn.glitch.com/a9975ea6-8949-4bab-addb-8a95021dc2da%2Fillustration.svg?v=1618177344016"
+        class="illustration"
+        alt="Editor illustration"
+        title="Click the image!"
+      /> -->
+      <h2>Welcome!</h2>
+      <p>
+        Welcome to the game! Repeat back the pattern by pressing buttons.
+      </p>
+
+      <button id="startBtn" onclick="startGame()">Start</button>
+    
+      <button id="stopBtn" class="hidden" onclick="stopGame()">Stop</button>
+
+<!--           The musical game buttons     -->
+      <div id="gameButtonArea">
+        <button id="button1" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone() "></button>
+        <button id="button2" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone()"></button>
+        <button id="button3" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone()"></button>
+        <button id="button4" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone()"></button>
+        <button id="button5" onclick="guess(5)" onmousedown="startTone(5)" onmouseup="stopTone()"></button>
+        <button id="button6" onclick="guess(6)" onmousedown="startTone(6)" onmouseup="stopTone()"></button>
+      </div>
+
+      <!-- Once you've added the button from the readme, click it in the page -->
+      <!-- Check out the function in script.js to see how it works -->
+    
+  </body>
+</html>
