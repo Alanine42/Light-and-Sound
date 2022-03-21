@@ -40,10 +40,10 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
-![](https://imgur.com/tXoR6Jm)
-![](https://imgur.com/cLN0Xjk)
-![](https://imgur.com/Ydg2gEo)
-![](https://imgur.com/a/0u7Bh2O)
+![Memory Game](https://imgur.com/tXoR6Jm)
+![User makes a mistake](https://imgur.com/cLN0Xjk)
+![Button special effect](https://imgur.com/Ydg2gEo)
+![Different clue each time you play](https://imgur.com/a/0u7Bh2O)
 
 ## Reflection Questions (still writing)
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
