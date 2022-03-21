@@ -19,7 +19,7 @@ button {
   font-family: inherit;
   font-size: 100%;
   background: #FFFFFF;
-  transition: 50ms; 
+  transition: 700ms; 
 }
 
 
@@ -29,7 +29,7 @@ button {
   height:200px;
   margin:2px;
   
-  transition-duration: 0.3;  /* rate of color transition when the button is clicked / hovered */
+  transition-duration: 0.15;  /* rate of color transition when the button is clicked / hovered */
 }
 
 

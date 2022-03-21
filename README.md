@@ -40,15 +40,15 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
-![](gif1-link-here)
-![](gif2-link-here)
-![](gif3-link-here)
-![](gif4-link-here)
+![](https://imgur.com/tXoR6Jm)
+![](https://imgur.com/cLN0Xjk)
+![](https://imgur.com/Ydg2gEo)
+![](https://imgur.com/a/0u7Bh2O)
 
-## Reflection Questions
+## Reflection Questions (still writing)
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
 
-W3Schools provide me great help: [button transform](https://www.w3schools.com/cssref/css3_pr_transform.asp), 
+W3Schools provide me great help on [button transform](https://www.w3schools.com/cssref/css3_pr_transform.asp), 
 [hoverable buttons](https://www.w3schools.com/css/css3_buttons.asp), 
 [imbedding images](https://www.w3schools.com/tags/tag_img.asp), 
 
@@ -69,9 +69,11 @@ rather, they stay silent.
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
 [YOUR ANSWER HERE]
 
+I will add a status bar to let the user know how far have they accomplished. 
 
 
-## Interview Recording URL Link
+
+## Interview Recording URL Link (working on it:)
 
 [My 5-minute Interview Recording](your-link-here)
 
