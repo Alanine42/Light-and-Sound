@@ -39,11 +39,10 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough (GIF)
 
-If you recorded multiple GIFs for all the implemented features, you can add them here:
-![Memory Game](https://imgur.com/tXoR6Jm)
-![User makes a mistake](https://imgur.com/cLN0Xjk)
-![Button special effect](https://imgur.com/Ydg2gEo)
-![Different clue each time you play](https://imgur.com/a/0u7Bh2O)
+![Musical Game](https://user-images.githubusercontent.com/68050193/159311632-6303f5d0-31c3-4497-b6c7-b60c3e18c80a.gif)
+![Special buttons](https://user-images.githubusercontent.com/68050193/159311643-85d64cdd-deb1-4c79-ae93-f93b735ef041.gif)
+![Made a mistake](https://user-images.githubusercontent.com/68050193/159311648-427bc686-244a-4f75-84cf-4ea90e0900b5.gif)
+![Different Clues](https://user-images.githubusercontent.com/68050193/159311419-79eb6e88-783d-4632-92ca-9723d8651f7c.gif)
 
 ## Reflection Questions (still writing)
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
