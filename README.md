@@ -87,7 +87,7 @@ Better music. Instead of generating random clues for each game, I would "hardcod
 Instead of clicking, the computer/player could also slide the button (up/down/left/right). It's a challenge for both the users and the developer. I know CSS can translate an element by x- or y-axis, but to synchronize the translation with the player's mouse movement is not an easy cake. I wish to learn more :) 
 
 
-## Interview Recording URL Link (working on it:)
+## Interview Recording URL Link
 
 [My 5-minute Interview Recording](https://ucsd.zoom.us/rec/share/BTzhd55mWcpcKPrf1tPzQ2JjwMa6UOLoRwecnyk-vOy1S9lXT8rj95k2wMnqAQWv.HkWSp-cfKVCbTqzF?startTime=1648484445000)
 
