@@ -89,7 +89,7 @@ Instead of clicking, the computer/player could also slide the button (up/down/le
 
 ## Interview Recording URL Link (working on it:)
 
-[My 5-minute Interview Recording](your-link-here)
+[My 5-minute Interview Recording](https://ucsd.zoom.us/rec/share/BTzhd55mWcpcKPrf1tPzQ2JjwMa6UOLoRwecnyk-vOy1S9lXT8rj95k2wMnqAQWv.HkWSp-cfKVCbTqzF?startTime=1648484445000)
 
 
 ## License
