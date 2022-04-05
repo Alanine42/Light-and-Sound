@@ -41,7 +41,7 @@ The following **additional** features are implemented:
 
 ![Musical Game](https://user-images.githubusercontent.com/68050193/159311632-6303f5d0-31c3-4497-b6c7-b60c3e18c80a.gif)
 ![Special buttons](https://user-images.githubusercontent.com/68050193/159311643-85d64cdd-deb1-4c79-ae93-f93b735ef041.gif)
-![Increasing Speed](https://user-images.githubusercontent.com/68050193/161864747-667f1668-0c39-4129-8f68-21a10c72811e.gif)
+![Increasing Speed](https://user-images.githubusercontent.com/68050193/161864986-5dc0bbce-0d39-4c0d-99e0-fa839e8f978b.gif)
 ![Different Clues](https://user-images.githubusercontent.com/68050193/159311419-79eb6e88-783d-4632-92ca-9723d8651f7c.gif)
 
 ## Reflection Questions
