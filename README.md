@@ -4,7 +4,7 @@
 
 Submitted by: **Yupeng (Alan) Sun**
 
-Time spent: **12** hours spent in total
+Time spent: **13** hours spent in total
 
 [Link to project](https://glitch.com/edit/#!/balanced-cyclic-braid) 
 
@@ -41,7 +41,7 @@ The following **additional** features are implemented:
 
 ![Musical Game](https://user-images.githubusercontent.com/68050193/159311632-6303f5d0-31c3-4497-b6c7-b60c3e18c80a.gif)
 ![Special buttons](https://user-images.githubusercontent.com/68050193/159311643-85d64cdd-deb1-4c79-ae93-f93b735ef041.gif)
-![Made a mistake](https://user-images.githubusercontent.com/68050193/159311648-427bc686-244a-4f75-84cf-4ea90e0900b5.gif)
+![Increasing Speed](https://user-images.githubusercontent.com/68050193/161864747-667f1668-0c39-4129-8f68-21a10c72811e.gif)
 ![Different Clues](https://user-images.githubusercontent.com/68050193/159311419-79eb6e88-783d-4632-92ca-9723d8651f7c.gif)
 
 ## Reflection Questions
